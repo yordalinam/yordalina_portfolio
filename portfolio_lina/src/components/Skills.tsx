@@ -20,7 +20,6 @@ const SkillsWrap = styled.div`
   overflow: hidden;
   color: #d9aae6;
 padding: 64px 35px 0 35px;
-
 `;
 
 const BackgroundShape = styled.div`

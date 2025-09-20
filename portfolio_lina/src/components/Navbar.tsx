@@ -48,7 +48,6 @@ const MenuIcon = styled(FiMenu)`
 `;
 
 const CloseIcon = styled(FiX)`
-
   width: 2rem;
   height: 2rem;
 `;
@@ -97,8 +96,8 @@ const MenuOverlay = styled.div<{ isOpen: boolean }>`
 
 const CloseButton = styled.button`
   position: absolute;
-  top: 1.25rem;
-  right: 1.25rem;
+  top: 0.5rem;
+  right: 1.8rem;
   background: none;
   border: none;
   color: white;

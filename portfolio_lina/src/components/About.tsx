@@ -20,6 +20,7 @@ min-height: 100vh;
     align-items: center;
     text-align: center;
   }
+
 `;
 
 const Image = styled.img`
