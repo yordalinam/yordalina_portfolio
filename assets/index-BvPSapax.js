@@ -84,7 +84,6 @@ font-family: sans-serif;
   width: 2rem;
   height: 2rem;
 `,iv=W(tv)`
-
   width: 2rem;
   height: 2rem;
 `,cv=W.nav`
@@ -124,8 +123,8 @@ font-family: sans-serif;
   }
 `,ov=W.button`
   position: absolute;
-  top: 1.25rem;
-  right: 1.25rem;
+  top: 0.5rem;
+  right: 1.8rem;
   background: none;
   border: none;
   color: white;
@@ -263,6 +262,7 @@ min-height: 100vh;
     align-items: center;
     text-align: center;
   }
+
 `,Mv=W.img`
 margin-bottom: 20px;
   @media (min-width: 1025px) {
@@ -316,7 +316,6 @@ margin-bottom: 20px;
   overflow: hidden;
   color: #d9aae6;
 padding: 64px 35px 0 35px;
-
 `,$v=W.div`
   position: absolute;
   right: 1rem;
