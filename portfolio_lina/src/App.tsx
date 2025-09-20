@@ -9,10 +9,14 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const HomeWrap = styled.div`
-margin:0;
-padding:0;
-background-color: #0d0214
-`
+  margin: 0;
+  padding: 0;
+  background-color: #0d0214;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+`;
+
 function App() {
   useEffect(() => {
     AOS.init({
