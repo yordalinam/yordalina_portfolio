@@ -8,7 +8,9 @@ import Contact from "./components/Contact";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const HomeWrap = styled.main`
+const HomeWrap = styled.div`
+margin:0;
+padding:0;
 background-color: #0d0214
 `
 function App() {
