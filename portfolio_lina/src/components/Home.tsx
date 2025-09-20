@@ -10,9 +10,9 @@ const HomeWrap = styled.div`
   overflow: hidden;
   width: 100%;
   z-index: 10;
-   padding-top:5rem;
-   margin-bottom:20px;
-
+padding-top: 5rem;
+min-height: 100vh;
+ 
 
    @media (max-width: 670px) {
     flex-direction: row;
