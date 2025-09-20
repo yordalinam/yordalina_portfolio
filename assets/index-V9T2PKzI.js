@@ -163,7 +163,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  justify-content: center;
   width: 100%;
   z-index: 10;
 padding-top: 5rem;
