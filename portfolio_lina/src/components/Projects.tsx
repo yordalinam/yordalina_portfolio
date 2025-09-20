@@ -13,7 +13,7 @@ const ProjectTitle = styled.h1`
 `;
 
 const ProjectsWrap = styled.div`
-padding: 64px 15px 0 15px;
+padding: 64px 35px 0 35px;
   position: relative;
   min-height: 100vh;
   display: flex;
@@ -57,7 +57,7 @@ const Title = styled.h1`
   z-index: 10;
 
   @media (max-width: 408px) {
-    font-size: 22px;
+    font-size: 20px;
   }
 `;
 
@@ -129,6 +129,10 @@ const ProjectDescription = styled.p`
   &::-webkit-scrollbar-thumb {
     background-color: #b324d7;
     border-radius: 3px;
+  }
+
+  @media (min-width: 420px){
+    font-size:0.9rem;
   }
 `;
 

@@ -10,7 +10,7 @@ const ContactFooter = styled.footer`
   color: #d9aae6;
 
   @media (max-width: 700px) {
-    padding: 20px;
+    padding: 35px;
     font-size: 0.9rem;
   }
 `;

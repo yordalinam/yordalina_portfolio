@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import aboutme from "../assets/aboutme.png";
+import aboutme from "../assets/aboutme2.png";
 
 const AboutContainer = styled.div`
 min-height: 100vh;
@@ -12,7 +12,7 @@ min-height: 100vh;
 
   @media(max-width: 1024px) {
     text-align: center;
-     padding: 0 15px;
+     padding: 0 35px;
   }
 
    @media(max-width: 670px) {
@@ -23,9 +23,10 @@ min-height: 100vh;
 `;
 
 const Image = styled.img`
+margin-bottom: 20px;
   @media (min-width: 1025px) {
-    width: 350px;
-    height: 350px;
+    max-width: 13rem;
+    max-height: 13rem;
   }
 
   @media (max-width: 1024px) {
@@ -66,20 +67,30 @@ const Paragraph = styled.p`
   }
 `;
 
+const TextTitleWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const TextSection = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-end;
+`;
 
 function About() {
   return (
     <AboutContainer id="about" data-aos="fade-right" data-aos-delay="500">
-      <Image src={aboutme} alt="Yordalina image" />
-      <div>
-        <PurpleBlurCircle />
-        <Title>About Me</Title>
-        <Paragraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sequi a quibusdam libero error tempora quo illo delectus est accusantium quisquam dolor aut, voluptate officiis dolorum alias maiores culpa explicabo?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consectetur nemo non eveniet ipsum laboriosam voluptates repellat asperiores id ullam. Esse deserunt similique fuga at nobis neque excepturi deleniti expedita.
-          osam voluptates repellat asperiores id ullam. Esse deserunt similique fuga at nobis neque excepturi deleniti expedita.
-        </Paragraph>
-      </div>
+      <PurpleBlurCircle />
+      <TextSection>
+           <Image src={aboutme} alt="Yordalina image" />
+        <TextTitleWrapper>
+           <Title>About Me</Title>
+          <Paragraph>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ab, dolorum repudiandae voluptate molestiae perferendis minus provident sequi voluptatum repellat amet consectetur adipisicing elit. Voluptatem ab, dolorum repudiandae voluptate molestiae perferendis minus provident sequi voluptatum repellat veniam fugit deserunt, dolor magni ea, laudantium dolores ad. Accusantium!          </Paragraph>
+        </TextTitleWrapper>
+      </TextSection>
     </AboutContainer>
   );
 }

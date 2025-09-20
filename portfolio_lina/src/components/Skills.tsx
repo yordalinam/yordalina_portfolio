@@ -19,7 +19,7 @@ const SkillsWrap = styled.div`
   align-items: center;
   overflow: hidden;
   color: #d9aae6;
-padding: 64px 15px 0 15px;
+padding: 64px 35px 0 35px;
 
 `;
 

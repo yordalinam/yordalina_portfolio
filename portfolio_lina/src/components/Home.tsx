@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import sticker from "../assets/sticker.png";
+import sticker2 from "../assets/sticker2.png";
 
 const HomeWrap = styled.div`
   position: relative;
@@ -11,14 +11,13 @@ const HomeWrap = styled.div`
   width: 100%;
   z-index: 10;
 padding-top: 5rem;
-min-height: 100vh;
  
 
    @media (max-width: 670px) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: center 
+    text-align: center ;
     } 
 `;
 
@@ -45,7 +44,7 @@ const ContentWrapper = styled.div`
 const HomeContent = styled.section`
   position: relative;
     @media (max-width: 840px) {
-    padding: 0 15px } 
+    padding: 0 35px } 
 `
 
 const BlurCircle = styled.div`
@@ -101,8 +100,8 @@ const Paragraph = styled.p`
 
 const Image = styled.img`
     @media (min-width: 671px) {
-   width: 18rem;
-height: 18rem  }
+   max-width: 18rem;
+   max-height: 18rem  }
 
   @media (max-width: 670px) {
         display: none;
@@ -132,7 +131,7 @@ export default function Home() {
               dolorem temporibus quae maiores consequatur necessitatibus aut
               velit ad?
             </Paragraph>
-            <Image src={sticker} alt="Yordalina image" />
+            <Image src={sticker2} alt="Yordalina image" />
           </ContentWrapper>
         </HomeContent>
       </HomeWrap>
