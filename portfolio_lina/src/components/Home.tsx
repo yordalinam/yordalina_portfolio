@@ -11,6 +11,7 @@ const HomeWrap = styled.div`
   width: 100%;
   z-index: 10;
 padding-top: 5rem;
+min-height: 100vh;
  
 
    @media (max-width: 670px) {
@@ -35,10 +36,9 @@ const HomeElement = styled.div`
  
 `;
 
-const ContentWrapper = styled.div`
+const TextWrapper = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center; 
+  flex-direction: column;
 `;
 
 const HomeContent = styled.section`
@@ -73,7 +73,7 @@ const Title = styled.h1`
   }
 `;
 
-const Subtitle = styled.h2`
+const Subtitle = styled.p`
   font-size: 26px;
   font-weight: 700;
   color: #b324d7;
@@ -88,25 +88,29 @@ const Subtitle = styled.h2`
 `;
 
 const Paragraph = styled.p`
-  font-size: 20px;
+  font-size: 24px;
   color: #e5e7eb;
  // margin-bottom: 1.5rem;
   max-width: 500px;
-
-   @media (max-width: 400px) {
-    font-size: 16px;
-  }
 `;
 
 const Image = styled.img`
     @media (min-width: 671px) {
-   max-width: 18rem;
-   max-height: 18rem  }
+   max-width: 13rem;
+   max-height: 13rem  }
 
   @media (max-width: 670px) {
         display: none;
   }
 `;
+
+const ContentWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:2rem;
+`
 
 export default function Home() {
   return (
@@ -116,22 +120,14 @@ export default function Home() {
         <HomeElement />
         <HomeContent >
           <BlurCircle />
-          <Header>
+            <ContentWrapper>
+          <TextWrapper>
             <Title>Yordalina Metodieva</Title>
-            <Subtitle>Frontend Developer</Subtitle>
-          </Header>
-          <ContentWrapper>
             <Paragraph>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-              voluptates deleniti a quam sapiente, autem repellat quibusdam vero
-              similique placeat, animi officia incidunt veritatis amet quia
-              doloribus, enim dolorum quisquam! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Autem animi incidunt tempore minus
-              eveniet itaque deserunt laborum ipsum excepturi. Libero, dolor
-              dolorem temporibus quae maiores consequatur necessitatibus aut
-              velit ad?
+              Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js
             </Paragraph>
-            <Image src={sticker2} alt="Yordalina image" />
+          </TextWrapper>
+                    <Image src={sticker2} alt="Yordalina image" />
           </ContentWrapper>
         </HomeContent>
       </HomeWrap>

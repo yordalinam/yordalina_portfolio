@@ -89,7 +89,10 @@ function About() {
         <TextTitleWrapper>
            <Title>About Me</Title>
           <Paragraph>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ab, dolorum repudiandae voluptate molestiae perferendis minus provident sequi voluptatum repellat amet consectetur adipisicing elit. Voluptatem ab, dolorum repudiandae voluptate molestiae perferendis minus provident sequi voluptatum repellat veniam fugit deserunt, dolor magni ea, laudantium dolores ad. Accusantium!          </Paragraph>
+I first discovered programming as a hobby, but my excitement quickly turned it into a career — one of the best decisions I’ve ever made.
+<br></br>
+<br></br>
+What I love most is the process: solving problems piece by piece, like assembling a puzzle, until something bigger comes to life. That same passion shows up in my hobbies too — from LEGO and board games to puzzles and painting by numbers. I’m consistent, focused, and dedicated, qualities that help me thrive as a developer and push projects through to completion.        </Paragraph>
         </TextTitleWrapper>
       </TextSection>
     </AboutContainer>
