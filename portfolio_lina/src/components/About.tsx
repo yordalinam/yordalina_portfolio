@@ -2,7 +2,6 @@ import styled from "styled-components";
 import aboutme from "../assets/aboutme2.png";
 
 const AboutContainer = styled.div`
-min-height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: row;

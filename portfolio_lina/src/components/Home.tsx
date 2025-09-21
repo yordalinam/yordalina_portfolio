@@ -11,7 +11,6 @@ const HomeWrap = styled.div`
   width: 100%;
   z-index: 10;
 padding-top: 5rem;
-min-height: 100vh;
  
 
    @media (max-width: 670px) {
