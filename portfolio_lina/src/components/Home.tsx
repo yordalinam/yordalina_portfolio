@@ -60,9 +60,6 @@ const BlurCircle = styled.div`
   z-index: -10;
 `;
 
-const Header = styled.header`
-`;
-
 const Title = styled.h1`
   font-size: 36px;
   font-weight: 700;
@@ -70,20 +67,6 @@ const Title = styled.h1`
 
   @media (max-width: 408px) {
     font-size: 22px
-  }
-`;
-
-const Subtitle = styled.p`
-  font-size: 26px;
-  font-weight: 700;
-  color: #b324d7;
-
-   @media (max-width: 771px) {
-    color: #320b3c;
-  }
-    @media (max-width: 408px) {
-      color: #5c1570;
-    font-size: 18px
   }
 `;
 
