@@ -1,13 +1,15 @@
 import styled from "styled-components";
 import aboutme from "../assets/aboutme2.png";
 
+
 const AboutContainer = styled.div`
-  overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+      text-align: center;
+      padding-top: 64px;
 
   @media(max-width: 1024px) {
     text-align: center;
@@ -23,18 +25,6 @@ const AboutContainer = styled.div`
     padding-right: 35px;
   }
 
-`;
-
-const Image = styled.img`
-margin-bottom: 20px;
-  @media (min-width: 1025px) {
-    max-width: 13rem;
-    max-height: 13rem;
-  }
-
-  @media (max-width: 1024px) {
-        display: none;
-  }
 `;
 
 const PurpleBlurCircle = styled.div`
@@ -73,30 +63,22 @@ const Paragraph = styled.p`
 const TextTitleWrapper = styled.div`
   display: flex;
   flex-direction: column;
-`;
-
-const TextSection = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  align-items: flex-end;
+  align-items: flex-start;
 `;
 
 function About() {
   return (
     <AboutContainer id="about" data-aos="fade-right" data-aos-delay="500">
-      <PurpleBlurCircle />
-      <TextSection>
-           <Image src={aboutme} alt="Yordalina image" />
-        <TextTitleWrapper>
+ 
+      
+               <PurpleBlurCircle />
            <Title>About Me</Title>
           <Paragraph>
 I first discovered programming as a hobby, but my excitement quickly turned it into a career — one of the best decisions I’ve ever made.
 <br></br>
 <br></br>
 What I love most is the process: solving problems piece by piece, like assembling a puzzle, until something bigger comes to life. That same passion shows up in my hobbies too — from LEGO and board games to puzzles and painting by numbers. I’m consistent, focused, and dedicated, qualities that help me thrive as a developer and push projects through to completion.        </Paragraph>
-        </TextTitleWrapper>
-      </TextSection>
+   
     </AboutContainer>
   );
 }

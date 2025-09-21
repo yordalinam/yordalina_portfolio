@@ -34,12 +34,19 @@ const HomeElement = styled.div`
   background: linear-gradient(to right, #5f1e87, #826bc8, #c661d1);
   transform: rotate(45deg);
 
+  @media(max-width: 670px){
+    height: 8rem;
+  }
  
 `;
 
 const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 72rem;
 `;
 
 const HomeContent = styled.section`
@@ -72,7 +79,7 @@ const Title = styled.h1`
 `;
 
 const Paragraph = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   color: #e5e7eb;
  // margin-bottom: 1.5rem;
   max-width: 500px;
@@ -83,14 +90,17 @@ const Paragraph = styled.p`
 `;
 
 const Image = styled.img`
- max-width: 13rem;
+ max-width: 9rem;
    max-height: 13rem;
 
-  @media (max-width: 670px) {
-   max-width: 18rem;
-   max-height: 18rem;
+  @media (max-width: 840px ) and (min-width: 481px) {
+  display: none;
   }
  
+ @media(max-width: 480px){
+    max-width: 13rem;
+    max-height: 13rem;
+ }
 `;
 
 const ContentWrapper = styled.div`
@@ -107,25 +117,39 @@ const ContentWrapper = styled.div`
   }
 `;
 
+
+const ImageWrap = styled.div`
+  position: absolute;
+left: -126px;
+    bottom: -172px;
+    @media (max-width: 670px) {
+    position: static;  
+    margin-top: 1rem;  
+  }
+`
+
 export default function Home() {
   return (
     <>
       <Navbar />
       <HomeWrap id="home" data-aos="fade-up" data-aos-delay="500">
         <HomeElement />
-        <HomeContent >
-          <BlurCircle />
-            <ContentWrapper>
-          <TextWrapper>
-            <Title>Yordalina Metodieva</Title>
-            <Paragraph>
-              Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js
-            </Paragraph>
-          </TextWrapper>
-                    <Image src={sticker2} alt="Yordalina image" />
-          </ContentWrapper>
-        </HomeContent>
+      <HomeContent>
+  <BlurCircle />
+  <ContentWrapper>
+    <TextWrapper>
+      <Title>Yordalina Metodieva</Title>
+      <Paragraph>
+         Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js
+      </Paragraph>
+    </TextWrapper>
+    <ImageWrap> 
+      <Image src={sticker2} alt="Yordalina image" />
+    </ImageWrap>
+  </ContentWrapper>
+</HomeContent>
       </HomeWrap>
+
     </>)
 }
 
