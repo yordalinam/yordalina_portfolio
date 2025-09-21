@@ -174,6 +174,7 @@ min-height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center ;
+    padding-top: 0;
     } 
 `,gv=W.div`
   position: absolute;
@@ -250,6 +251,7 @@ min-height: 100vh;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 64px 35px;
   }
 
 `,jv=W.img`
