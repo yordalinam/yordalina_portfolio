@@ -250,7 +250,9 @@ padding-top: 5rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 64px 35px;
+    padding-top: 64px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
 `,jv=W.img`
