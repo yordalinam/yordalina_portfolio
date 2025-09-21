@@ -19,7 +19,8 @@ min-height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center ;
-    padding-top: 0;
+    padding-top: 80px;
+    min-height: auto;
     } 
 `;
 
@@ -27,8 +28,8 @@ const HomeElement = styled.div`
   position: absolute;
   right: 0.5rem;
   top: 7rem;
-  height: 18rem;
-  width: 32rem;
+  height: 13rem;
+  width: 30rem;
   border-radius: 1.5rem;
   z-index: 0;
   background: linear-gradient(to right, #5f1e87, #826bc8, #c661d1);
