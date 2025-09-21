@@ -5,5 +5,4 @@ html, body {
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: sans-serif;
-  overscroll-behavior: none;
-}
+overscroll-behavior: contain;}
