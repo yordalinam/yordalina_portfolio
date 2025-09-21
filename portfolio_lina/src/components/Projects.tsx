@@ -13,7 +13,7 @@ const ProjectTitle = styled.h1`
 `;
 
 const ProjectsWrap = styled.div`
-padding: 64px 35px 0 35px;
+padding: 80px 35px 0 35px;
   position: relative;
   min-height: 100vh;
   display: flex;

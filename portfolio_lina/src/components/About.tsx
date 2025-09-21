@@ -18,7 +18,7 @@ const AboutContainer = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 64px;
+    padding-top: 80px;
     padding-left: 35px;
     padding-right: 35px;
   }
@@ -66,7 +66,7 @@ const Paragraph = styled.p`
   max-width: 500px;
 
    @media (max-width: 400px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 `;
 
