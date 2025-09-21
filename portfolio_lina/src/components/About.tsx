@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import aboutme from "../assets/aboutme2.png";
-
 
 const AboutContainer = styled.div`
   display: flex;
@@ -58,12 +56,6 @@ const Paragraph = styled.p`
    @media (max-width: 400px) {
     font-size: 18px;
   }
-`;
-
-const TextTitleWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 `;
 
 function About() {
