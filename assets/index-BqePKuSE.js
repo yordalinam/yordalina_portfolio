@@ -219,20 +219,31 @@ padding-top: 5rem;
   color: #e5e7eb;
  // margin-bottom: 1.5rem;
   max-width: 500px;
+
+  @media(max-width: 670px){
+   font-size:18px; 
+  }
 `,Tv=W.img`
-    @media (min-width: 671px) {
-   max-width: 13rem;
-   max-height: 13rem  }
+ max-width: 13rem;
+   max-height: 13rem;
 
   @media (max-width: 670px) {
-        display: none;
+   max-width: 18rem;
+   max-height: 18rem;
   }
+ 
 `,Av=W.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap:2rem;
+  gap: 2rem;
+
+  @media (max-width: 670px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;function _v(){return y.jsxs(y.Fragment,{children:[y.jsx(mv,{}),y.jsxs(yv,{id:"home","data-aos":"fade-up","data-aos-delay":"500",children:[y.jsx(gv,{}),y.jsxs(bv,{children:[y.jsx(Sv,{}),y.jsxs(Av,{children:[y.jsxs(pv,{children:[y.jsx(xv,{children:"Yordalina Metodieva"}),y.jsx(Ev,{children:"Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js"})]}),y.jsx(Tv,{src:vv,alt:"Yordalina image"})]})]})]})]})}const zv="/yordalina_portfolio/assets/aboutme2-B8LFjaIS.png",Ov=W.div`
   overflow: hidden;
   display: flex;
@@ -250,7 +261,7 @@ padding-top: 5rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 64px;
+    padding-top: 80px;
     padding-left: 35px;
     padding-right: 35px;
   }
@@ -290,7 +301,7 @@ margin-bottom: 20px;
   max-width: 500px;
 
    @media (max-width: 400px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 `,Rv=W.div`
   display: flex;
@@ -307,7 +318,7 @@ margin-bottom: 20px;
   align-items: center;
   overflow: hidden;
   color: #d9aae6;
-padding: 64px 35px 0 35px;
+padding: 80px 35px 0 35px;
 `,Jv=W.div`
   position: absolute;
   right: 1rem;
@@ -388,7 +399,7 @@ height: 100px  }
 `,ny=W.h1`
   color: #9e22bd;
 `,uy=W.div`
-padding: 64px 35px 0 35px;
+padding: 80px 35px 0 35px;
   position: relative;
   min-height: 100vh;
   display: flex;
