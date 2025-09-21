@@ -166,7 +166,6 @@ align-items: center;
   width: 100%;
   z-index: 10;
 padding-top: 5rem;
-min-height: 100vh;
  
 
    @media (max-width: 670px) {
@@ -235,7 +234,6 @@ min-height: 100vh;
   justify-content: center;
   gap:2rem;
 `;function _v(){return y.jsxs(y.Fragment,{children:[y.jsx(mv,{}),y.jsxs(yv,{id:"home","data-aos":"fade-up","data-aos-delay":"500",children:[y.jsx(gv,{}),y.jsxs(bv,{children:[y.jsx(Sv,{}),y.jsxs(Av,{children:[y.jsxs(pv,{children:[y.jsx(xv,{children:"Yordalina Metodieva"}),y.jsx(Ev,{children:"Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js"})]}),y.jsx(Tv,{src:vv,alt:"Yordalina image"})]})]})]})]})}const zv="/yordalina_portfolio/assets/aboutme2-B8LFjaIS.png",Ov=W.div`
-min-height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: row;
