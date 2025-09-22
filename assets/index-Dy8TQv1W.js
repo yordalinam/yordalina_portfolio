@@ -61,10 +61,11 @@ font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid #b324d7;
    background: linear-gradient(
     to right,
-    rgba(27, 3, 41, 1),
-    #8b2db7
+    #0d0214,
+    #682194  
   );
   `,nv=I.button`
   display: block;
