@@ -140,7 +140,7 @@ export default function Home() {
     <TextWrapper>
       <Title>Yordalina Metodieva</Title>
       <Paragraph>
-         Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js
+         Hi! I am a Front-End developer with 3 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js
       </Paragraph>
     </TextWrapper>
     <ImageWrap> 
