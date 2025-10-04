@@ -263,7 +263,7 @@ left: -126px;
     position: static;  
     margin-top: 1rem;  
   }
-`;function zv(){return y.jsxs(y.Fragment,{children:[y.jsx(mv,{}),y.jsxs(yv,{id:"home","data-aos":"fade-up","data-aos-delay":"500",children:[y.jsx(gv,{}),y.jsxs(bv,{children:[y.jsx(Sv,{}),y.jsxs(Av,{children:[y.jsxs(pv,{children:[y.jsx(xv,{children:"Yordalina Metodieva"}),y.jsx(Ev,{children:"Hi! I am a Front-End developer with 2.5 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js"})]}),y.jsx(_v,{children:y.jsx(Tv,{src:vv,alt:"Yordalina image"})})]})]})]})]})}const Ov=I.div`
+`;function zv(){return y.jsxs(y.Fragment,{children:[y.jsx(mv,{}),y.jsxs(yv,{id:"home","data-aos":"fade-up","data-aos-delay":"500",children:[y.jsx(gv,{}),y.jsxs(bv,{children:[y.jsx(Sv,{}),y.jsxs(Av,{children:[y.jsxs(pv,{children:[y.jsx(xv,{children:"Yordalina Metodieva"}),y.jsx(Ev,{children:"Hi! I am a Front-End developer with 3 years of experience in bringing beautiful designs into lively, functional, high-quality interfaces. Currently working with React, TypeScript, Next.js"})]}),y.jsx(_v,{children:y.jsx(Tv,{src:vv,alt:"Yordalina image"})})]})]})]})]})}const Ov=I.div`
   display: flex;
   flex-direction: column;
   align-items: center;
